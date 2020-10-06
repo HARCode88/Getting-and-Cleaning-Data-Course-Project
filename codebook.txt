@@ -1,0 +1,80 @@
+Data Dictionary for the tidy_data dataset resulting from the 
+Getting and Cleaning Data Course Project
+
+
+subject - an Integer indicating the number of the subject
+activity - character indicating the type of activity the subject was involved in for the measurements
+		Possibilities are WALKING, WALKING-UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+		
+The remainder of the variables are all AVERAGES of the designated measure.  		
+The first portion of the variable name is the measurement type - for example tBodyAcc 
+The second potion of the variable name is the specific measure - mean or std
+The third part and last letter is applicable is the axis on which the measure was taken (ie X, Y or Z), not all measures where taken by axis.\
+
+
+ tBodyAccmeanX 
+ tBodyAccmeanY 
+ tBodyAccmeanZ 
+ tBodyAccstdX 
+ tBodyAccstdY 
+ tBodyAccstdZ 
+ tGravityAccmeanX 
+ tGravityAccmeanY 
+ tGravityAccmeanZ 
+ tGravityAccstdX 
+ tGravityAccstdY 
+ tGravityAccstdZ 
+ tBodyAccJerkmeanX 
+ tBodyAccJerkmeanY 
+ tBodyAccJerkmeanZ 
+ tBodyAccJerkstdX 
+ tBodyAccJerkstdY 
+ tBodyAccJerkstdZ 
+ tBodyGyromeanX 
+ tBodyGyromeanY 
+ tBodyGyromeanZ 
+ tBodyGyrostdX 
+ tBodyGyrostdY 
+ tBodyGyrostdZ 
+ tBodyGyroJerkmeanX 
+ tBodyGyroJerkmeanY 
+ tBodyGyroJerkmeanZ 
+ tBodyGyroJerkstdX 
+ tBodyGyroJerkstdY 
+ tBodyGyroJerkstdZ 
+ tBodyAccMagmean 
+ tBodyAccMagstd 
+ tGravityAccMagmean 
+ tGravityAccMagstd 
+ tBodyAccJerkMagmean 
+ tBodyAccJerkMagstd 
+ tBodyGyroMagmean 
+ tBodyGyroMagstd 
+ tBodyGyroJerkMagmean 
+ tBodyGyroJerkMagstd 
+ fBodyAccmeanX 
+ fBodyAccmeanY 
+ fBodyAccmeanZ 
+ fBodyAccstdX 
+ fBodyAccstdY 
+ fBodyAccstdZ 
+ fBodyAccJerkmeanX 
+ fBodyAccJerkmeanY 
+ fBodyAccJerkmeanZ 
+ fBodyAccJerkstdX 
+ fBodyAccJerkstdY 
+ fBodyAccJerkstdZ 
+ fBodyGyromeanX 
+ fBodyGyromeanY 
+ fBodyGyromeanZ 
+ fBodyGyrostdX 
+ fBodyGyrostdY 
+ fBodyGyrostdZ 
+ fBodyAccMagmean 
+ fBodyAccMagstd 
+ fBodyBodyAccJerkMagmean 
+ fBodyBodyAccJerkMagstd 
+ fBodyBodyGyroMagmean 
+ fBodyBodyGyroMagstd 
+ fBodyBodyGyroJerkMagmean 
+ fBodyBodyGyroJerkMagstd 
